@@ -1,0 +1,32 @@
+# Secrets et environnement local
+.env
+.env.local
+*.env
+
+# Bases de données de sessions / jetons
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Workspaces utilisateurs
+workspace/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.venv/
+venv/
+
+# Chainlit (regénéré automatiquement)
+.chainlit/
+chainlit.md
+
+# OS
+.DS_Store
+Thumbs.db
+*.log

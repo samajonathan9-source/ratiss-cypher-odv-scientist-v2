@@ -1,0 +1,17 @@
+
+numpy>=1.22.0
+psutil>=5.8.0
+scipy>=1.7.0
+fastapi>=0.70.0
+uvicorn>=0.15.0
+pypdf>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.9.3
+xmltodict>=0.12.0
+python-multipart>=0.0.5
+markdown>=3.3.0
+pygments>=2.9.0
+pyyaml>=5.4.0
+lxml>=4.6.0
+PyQt5>=5.15.0; sys_platform == 'linux' or sys_platform == 'darwin' or sys_platform == 'win32'
+PyQtWebEngine>=5.15.0; sys_platform == 'linux' or sys_platform == 'darwin' or sys_platform == 'win32'
